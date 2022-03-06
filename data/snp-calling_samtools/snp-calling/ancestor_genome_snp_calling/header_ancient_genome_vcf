@@ -1,0 +1,50 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##bcftoolsVersion=1.12+htslib-1.12
+##bcftoolsCommand=mpileup -I -Ou -R ../data/snp-calling_samtools/snp-calling/ancestor_genome_snp_calling/Passed_SNP_posi_aln -f ../data/genome/combined_ancient_peanut.fa ../data/snp-calling_samtools/alignment/E01001_aln_ancient.BWASort.bam
+##reference=file://../data/genome/combined_ancient_peanut.fa
+##contig=<ID=CM003088.1,length=106015837>
+##contig=<ID=CM003089.1,length=92627924>
+##contig=<ID=CM003090.1,length=133136946>
+##contig=<ID=CM003091.1,length=121180382>
+##contig=<ID=CM003092.1,length=108284737>
+##contig=<ID=CM003093.1,length=110733117>
+##contig=<ID=CM003094.1,length=77948624>
+##contig=<ID=CM003095.1,length=48937534>
+##contig=<ID=CM003096.1,length=118999574>
+##contig=<ID=CM003097.1,length=107255536>
+##contig=<ID=CM003054.1,length=136910013>
+##contig=<ID=CM003055.1,length=108641379>
+##contig=<ID=CM003056.1,length=135595063>
+##contig=<ID=CM003057.1,length=133209281>
+##contig=<ID=CM003058.1,length=149435236>
+##contig=<ID=CM003059.1,length=136721448>
+##contig=<ID=CM003060.1,length=125994751>
+##contig=<ID=CM003061.1,length=129151520>
+##contig=<ID=CM003062.1,length=146495397>
+##contig=<ID=CM003063.1,length=135809342>
+##contig=<ID=JQIN01001757.1,length=122674>
+##contig=<ID=JQIN01001793.1,length=25385>
+##contig=<ID=JQIN01002055.1,length=97203>
+##contig=<ID=JQIN01002099.1,length=68146>
+##contig=<ID=JQIN01002427.1,length=20293>
+##contig=<ID=JQIN01002536.1,length=16641>
+##contig=<ID=JQIO01000493.1,length=15280>
+##ALT=<ID=*,Description="Represents allele(s) other than observed.">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=IDV,Number=1,Type=Integer,Description="Maximum number of raw reads supporting an indel">
+##INFO=<ID=IMF,Number=1,Type=Float,Description="Maximum fraction of raw reads supporting an indel">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw read depth">
+##INFO=<ID=VDB,Number=1,Type=Float,Description="Variant Distance Bias for filtering splice-site artefacts in RNA-seq data (bigger is better)",Version="3">
+##INFO=<ID=RPB,Number=1,Type=Float,Description="Mann-Whitney U test of Read Position Bias (bigger is better)">
+##INFO=<ID=MQB,Number=1,Type=Float,Description="Mann-Whitney U test of Mapping Quality Bias (bigger is better)">
+##INFO=<ID=BQB,Number=1,Type=Float,Description="Mann-Whitney U test of Base Quality Bias (bigger is better)">
+##INFO=<ID=MQSB,Number=1,Type=Float,Description="Mann-Whitney U test of Mapping Quality vs Strand Bias (bigger is better)">
+##INFO=<ID=SGB,Number=1,Type=Float,Description="Segregation based metric.">
+##INFO=<ID=MQ0F,Number=1,Type=Float,Description="Fraction of MQ0 reads (smaller is better)">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="List of Phred-scaled genotype likelihoods">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=AC,Number=A,Type=Integer,Description="Allele count in genotypes for each ALT allele, in the same order as listed">
+##INFO=<ID=AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Number of high-quality ref-forward , ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=MQ,Number=1,Type=Integer,Description="Average mapping quality">
